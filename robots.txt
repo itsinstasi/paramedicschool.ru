@@ -1,0 +1,2 @@
+﻿User-agent: *
+Sitemap: https://paramedicschoolru.itsinsta.site//sitemap.xml
