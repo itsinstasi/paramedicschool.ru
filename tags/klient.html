@@ -1,0 +1,405 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>клиент</title>
+    <meta name="title" content="клиент">
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+    <script async src="https://use.fontawesome.com/d758daec41.js"></script>   
+	<link rel="stylesheet" href="../css/style.css"/>
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#fff">
+    <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#fff">
+
+	<!--modernizr-->
+	<script src="../js/vendors/modernizr-custom.js"></script>
+
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserhappy">
+            Ваш браузер <strong>устарел</strong>. Пожалуйста <a href="https://browsehappy.com/"  target="_blank">обновите</a>.
+        </p>
+    <![endif]-->
+    <noscript>
+		Вам нужно включить JavaScript в своем браузере, чтобы  отображение этой страницы было корректно.
+    </noscript>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__wrap">
+					<div class="header__left">
+						<a href="../main.html" class="header__logo">
+							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/vp/38643dd265394bfd8b75c266bc077a31/5E62D3AD/t51.2885-19/s150x150/44711805_2216900928578898_4734584845450084352_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="PARAMEDIC SCHOOL (RUS. MOSCOW)"></div>
+							<div class="header__logo-txt">paramedicschool.ru</div>
+						</a>
+						<div class="header__title">PARAMEDIC SCHOOL (RUS. MOSCOW)</div>
+					</div>
+					<!--<div class="header__right">
+						<form action="#" method="get" class="search">
+							<input type="search" class="input search__input" placeholder="Поиск">
+							<button class="btn search__btn" type="submit" title="Искать"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</form>
+					</div>-->
+				</div>
+			</div>
+		</header>	
+		<div class="main">
+			<div class="stories">
+				<div class="container">
+					<div class="stories__slider-wrap">
+						<div class="stories__slider" id="js-stories-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="stories__slide" title="антонгладилин">
+										<a href="./antongladilin.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/antongladilin.png);"></div>
+											<div class="stories__slide-txt">антонгладилин</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="первая помощь">
+										<a href="./pervaya-pomoshch-.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/pervaya-pomoshch-.png);"></div>
+											<div class="stories__slide-txt">первая помощь</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="без опасность">
+										<a href="./bez-opasnost-.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/bez-opasnost-.png);"></div>
+											<div class="stories__slide-txt">без опасность</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="тренер">
+										<a href="./trener.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/trener.png);"></div>
+											<div class="stories__slide-txt">тренер</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="event">
+										<a href="./event.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/event.png);"></div>
+											<div class="stories__slide-txt">event</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="тим билдинг">
+										<a href="./tim-bilding.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/tim-bilding.png);"></div>
+											<div class="stories__slide-txt">тим билдинг</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="team building">
+										<a href="./team-building.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/team-building.png);"></div>
+											<div class="stories__slide-txt">team building</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="эвент">
+										<a href="./event.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/event.png);"></div>
+											<div class="stories__slide-txt">эвент</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="коуч">
+										<a href="./kouch.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/kouch.png);"></div>
+											<div class="stories__slide-txt">коуч</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="без опасность детей">
+										<a href="./bez-opasnost--detey.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/bez-opasnost--detey.png);"></div>
+											<div class="stories__slide-txt">без опасность детей</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="инструктор">
+										<a href="./instruktor.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/instruktor.png);"></div>
+											<div class="stories__slide-txt">инструктор</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="b2b">
+										<a href="./b2b.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/b2b.png);"></div>
+											<div class="stories__slide-txt">b2b</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="b2c">
+										<a href="./b2c.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/b2c.png);"></div>
+											<div class="stories__slide-txt">b2c</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="тренинг">
+										<a href="./trening.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/trening.png);"></div>
+											<div class="stories__slide-txt">тренинг</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="antonio bomberos">
+										<a href="./antonio-bomberos.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/antonio-bomberos.png);"></div>
+											<div class="stories__slide-txt">antonio bomberos</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="Москва">
+										<a href="./moskva.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/Moskva.png);"></div>
+											<div class="stories__slide-txt">Москва</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="moscow">
+										<a href="./moscow.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/moscow.png);"></div>
+											<div class="stories__slide-txt">moscow</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="что делать при пожаре">
+										<a href="./chto-delat--pri-pozhare.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/chto-delat--pri-pozhare.png);"></div>
+											<div class="stories__slide-txt">что делать при пожаре</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="мастер класс">
+										<a href="./master-klass.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/master-klass.png);"></div>
+											<div class="stories__slide-txt">мастер класс</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="обучение">
+										<a href="./obuchenie.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/obuchenie.png);"></div>
+											<div class="stories__slide-txt">обучение</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="успех">
+										<a href="./uspekh.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/uspekh.png);"></div>
+											<div class="stories__slide-txt">успех</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="уверенность">
+										<a href="./uverennost-.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/uverennost-.png);"></div>
+											<div class="stories__slide-txt">уверенность</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дети">
+										<a href="./deti.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/deti.png);"></div>
+											<div class="stories__slide-txt">дети</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="выживание">
+										<a href="./vyzhivanie.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/vyzhivanie.png);"></div>
+											<div class="stories__slide-txt">выживание</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="dream team">
+										<a href="./dream-team.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dream-team.png);"></div>
+											<div class="stories__slide-txt">dream team</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="семья">
+										<a href="./sem-ya.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/sem-ya.png);"></div>
+											<div class="stories__slide-txt">семья</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="весело">
+										<a href="./veselo.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/veselo.png);"></div>
+											<div class="stories__slide-txt">весело</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="выживи">
+										<a href="./vyzhivi.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/vyzhivi.png);"></div>
+											<div class="stories__slide-txt">выживи</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="мероприятие">
+										<a href="./meropriyatie.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/meropriyatie.png);"></div>
+											<div class="stories__slide-txt">мероприятие</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="зож">
+										<a href="./zozh.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/zozh.png);"></div>
+											<div class="stories__slide-txt">зож</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+						<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
+					</div>
+				</div>
+			</div>
+			<nav class="breadcrumbs">
+				<div class="container">
+					<a href="../main.html">Главная</a> / <span>клиент</span>
+				</div>
+			</nav>
+			<div class="tag">
+				<div class="container">
+					<div class="tag__group">
+						<h1 class="tag__title">клиент, Москва</h1>
+						<div class="tag__item-list">
+							<a href="../posts/./na-dnyakh-trenerskiy-sostav-paramedicschool-dotru.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/28b533bc2238d230aa8154311fd88556/5E4A7CF9/t51.2885-15/e35/37955723_2177550165867261_6161836365202849792_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2018-08-16">16 August 2018</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>3</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>На днях тренерский состав paramedicschool.ru</h2>
+										<p>На днях тренерский состав paramedicschool.ru во главе старшего тренера @alex_malov13 , совместно со студентами-спасателями студенческого отряда спасателей «Скальпель», принял участите в проведении масштабной военно-патриотической игры по мотивам знаменитой военной драмы режиссёра Стивена Спилберга «Спасти рядового Райана». Обязательным условием сюжетной линии игры было проведение персоналом Российского дивизиона крупной Японской корпорации действий по розыску, укрытию и маскировке «раненых», а так же оказанию первой помощи и проведении медицинс...</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./sekret-khorosho-provedennogo.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/8ae975c951b17a9edc042564d8298a6a/5E3EF89D/t51.2885-15/e35/37761060_750192171980263_6126389003676549120_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2018-08-06">06 August 2018</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>2</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Секрет хорошо проведенного</h2>
+										<p>Секрет хорошо проведенного мероприятия очень прост: полная отдача, разработка индивидуальной программы с учетом пожеланий клиента, хорошее настроение и внутренний климат команды....и улубки, улыбки, улыбки...<br/>В эти выходные команда наших тренеров @alex_malov13 @antonio_bomberos и др. провела серию Мастер-классов для очень крупного и очень секретного клиента. <br/>Да. Нас, как экспертов, приглашают для проведения мероприятий и в форматах "event" и "team building". Но всё же основное направление нашей деятельности-это обучение!<br/>Учись действовать прав...</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>			
+		<div class="banner">
+			<div class="banner__overlay" id="js-banner-overlay" onclick="document.getElementById('js-banner-overlay').classList.toggle('open');document.getElementById('js-banner-main').classList.toggle('open');"></div>
+			<button class="btn banner__btn" onclick="document.getElementById('js-banner-overlay').classList.toggle('open');document.getElementById('js-banner-main').classList.toggle('open');">
+				<span><i class="fa fa-comments-o" aria-hidden="true"></i></span>
+			</button>
+			<div class="banner__main" id="js-banner-main">
+				<div class="banner__main-title">Свяжитесь с нами</div>
+				<div class="banner__main-row">
+					<div class="banner__main-item disable">
+						<div class="banner__main-item-ring"><i class="fa fa-whatsapp" aria-hidden="true"></i></div>
+						<div class="banner__main-item-txt">WhatsApp</div>
+					</div>
+
+					<div class="banner__main-item disable">
+						<div class="banner__main-item-ring"><i class="fa fa-telegram" aria-hidden="true"></i></div>
+						<div class="banner__main-item-txt">Telegram</div>
+					</div>
+
+					<div class="banner__main-item disable">
+						<div class="banner__main-item-ring"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+						<div class="banner__main-item-txt">Viber</div>
+					</div>
+
+
+					<a href="https://www.instagram.com/paramedicschool.ru" target="_blank" 
+					class="banner__main-item">
+						<div class="banner__main-item-ring"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+						<div class="banner__main-item-txt">Instagram</div>
+					</a>
+
+				</div>
+			</div>
+		</div>			
+	</div>
+	<!--swiper-->
+	<script src="../js/vendors/swiper.min.js"></script>
+	<!--jQuery-->
+	<script src="../js/vendors/jquery.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="../js/vendors/jquery.lazyloadxt.js"></script>
+	<!--init-->
+	<script src="../js/jquery.init.js"></script>
+	<!--my scripts-->
+	<script src="../js/jquery.main.js"></script>
+</body>
+</html>
