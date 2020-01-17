@@ -62,13 +62,13 @@
 				<div class="header__wrap">
 					<div class="header__left">
 						<a href="./" class="header__logo">
-							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-19/s150x150/44711805_2216900928578898_4734584845450084352_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_ohc=0gqURyDlp14AX84Dr0y&oh=e640ebd5f49af5c719036d0f621c0e86&oe=5ED97AAD" alt="PARAMEDIC SCHOOL (RUS. MOSCOW)"></div>
+							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-19/s150x150/44711805_2216900928578898_4734584845450084352_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_ohc=0JL7IryHrq4AX_2gwcv&oh=9f6c2d07bbac32a2d97619ad84391ba2&oe=5ED97AAD" alt="PARAMEDIC SCHOOL (RUS. MOSCOW)"></div>
 							<div class="header__logo-txt">paramedicschool.ru</div>
 						</a>
 						<div class="header__title">PARAMEDIC SCHOOL (RUS. MOSCOW)</div>
 					</div>
 					<div id="settingsContainer" class="header__right" style="display:none">
-						<button onclick="window.open('http://itsinsta.site/page.html?project=paramedicschool.ru');" class="btn stories-popup__buy">Настроить</button>
+						<button onclick="window.open('http://itsinsta.site/page.html?project=paramedicschool.ru', '_self');" class="btn stories-popup__buy">Настроить</button>
 					</div>
 				</div>
 			</div>
@@ -250,7 +250,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
 $(document).ready(function(){
 	var lid = getUrlParameter("lid");
-	if (lid) {
+	if (lid && lid != "true") {
         localStorage.setItem("hasToken", true);
 
 		$("#settingsContainer").show();
